@@ -1,0 +1,28 @@
+{
+  "application": [
+    {
+      "id": "8456",
+      "name": "Keshavraj Pore",
+      "email": "poreg79@gmail.com ",
+      "phone": "7378564044",
+      "loanAmount": 50000,
+      "collateral": "Gold"
+    },
+    {
+      "id": "c901",
+      "name": "Keshavraj Pore",
+      "email": "poreg79@gmail.com ",
+      "phone": "7378564044",
+      "loanAmount": 50000,
+      "collateral": "Gold"
+    },
+    {
+      "id": "355e",
+      "name": "Keshavraj Pore",
+      "email": "poreg79@gmail.com ",
+      "phone": "7378564044",
+      "loanAmount": 100000,
+      "collateral": "Silver"
+    }
+  ]
+}

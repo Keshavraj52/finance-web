@@ -1,0 +1,35 @@
+<div class="container">
+    <h2>Loan Application Form</h2>
+    <p>{{addapplicationMessage}}</p>
+    <form   #loanformForm="ngForm" (ngSubmit)="submit(loanformForm.value)">
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" ngModel required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" ngModel required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" ngModel required>
+      </div>
+      <div class="form-group">
+        <label for="loanAmount">Loan Amount:</label>
+        <input type="number" id="loanAmount" name="loanAmount" ngModel required>
+      </div>
+      <div class="form-group">
+        <label for="collateral">Collateral Type:</label>
+        <select id="collateral" name="collateral" ngModel required>
+          <option value="">Select Collateral Type</option>
+          <option value="Gold">Gold</option>
+          <option value="Silver">Silver</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Submit Application">
+      </div>
+    </form>
+  </div>
+
+  <!-- #personalInfoForm="ngForm" (ngSubmit)="submit(personalInfoForm.value)" -->
